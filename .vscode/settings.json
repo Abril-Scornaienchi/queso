@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "new": "cpp",
+        "algorithm": "cpp",
+        "*.tcc": "cpp",
+        "istream": "cpp"
+    }
+}
