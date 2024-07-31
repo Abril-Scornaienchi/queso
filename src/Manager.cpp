@@ -4,17 +4,17 @@
 
 Manager :: Manager()
 {
-    cout  << "\n\n------------------------" << "\nThe Manager Constructor\n" << "------------------------\n" ;
+    cout  << "\n\n------------------------" << "\nConstructor de Manager\n" << "------------------------\n" ;
 }
 
 Manager :: ~Manager()
 {
-    cout  << "\n------------------------" << "\nThe Manager Deconstructor\n" << "------------------------" ;
+    cout  << "\n------------------------" << "\nDestructor de Manager\n" << "------------------------" ;
 }
 
 void Manager :: NotificationDelivered()
 {
-    cout << "\nThe Notification was Delivered to this worker\n";
+    cout << "\nLa Notificación fue Entregada a este trabajador\n";
 }
 
 void Manager :: setName(string n)
@@ -69,7 +69,7 @@ string Manager :: getMensaje()
 
 void Manager :: work()
 {
-    cout << "The Manager is controlling";
+    cout << "El Manager esta controlando";
 }
 
 

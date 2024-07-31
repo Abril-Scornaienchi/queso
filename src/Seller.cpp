@@ -4,17 +4,17 @@
 
 Seller :: Seller()
 {
-    cout  << "\n\n-------------------------" << "\nThe Seller Constructor\n" << "-------------------------" ;
+    cout  << "\n\n-------------------------" << "\nConstructor de Seller\n" << "-------------------------" ;
 }
 
 Seller :: ~Seller()
 {
-    cout  << "\n-------------------------" << "\nThe Seller Deconstructor\n" << "-------------------------" ;
+    cout  << "\n-------------------------" << "\nDestructor de Seller\n" << "-------------------------" ;
 }
 
 void Seller :: NotificationDelivered()
 {
-    cout << "\nThe Notification was Delivered to this worker\n";
+    cout << "\nLa Notificación fue Entregada a este trabajador\n";
 }
 
 void Seller :: setName(string n)
@@ -69,6 +69,6 @@ string Seller :: getMensaje()
 
 void Seller :: work()
 {
-    cout << "The Seller is working";
+    cout << "El vendedor esta trabajando";
 }
 

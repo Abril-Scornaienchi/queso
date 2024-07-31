@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
-#include <conio.h>
 
-#include <Sucursal.h>
+#include "include/Sucursal.h"
 
-#include <Employee.h>
-#include <DutyManager.h>
-#include <Manager.h>
-#include <Seller.h>
+#include "include/Employee.h"
+#include "include/DutyManager.h"
+#include "include/Manager.h"
+#include "include/Seller.h"
 
 
 using namespace std;

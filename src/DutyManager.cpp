@@ -4,17 +4,17 @@
 
 DutyManager :: DutyManager()
 {
-    cout << "\n\n----------------------------" << "\nThe DutyManager Constructor\n" << "----------------------------";
+    cout << "\n\n----------------------------" << "\nConstructor de DutyManager\n" << "----------------------------";
 }
 
 DutyManager :: ~DutyManager()
 {
-    cout << "\n\n----------------------------" << "\nThe DutyManager Deconstructor\n" << "----------------------------\n";
+    cout << "\n\n----------------------------" << "\nDestructor de DutyManager\n" << "----------------------------\n";
 }
 
 void DutyManager :: NotificationDelivered()
 {
-    cout << "\nThe Notification has been Delivered to this worker\n";
+    cout << "\nLa Notificación ha sido Entregada a este trabajador\n";
 }
 
 void DutyManager :: setName(string n)
@@ -69,5 +69,5 @@ string DutyManager :: getMensaje()
 
 void DutyManager :: work()
 {
-    cout << "The DutyManager is managing";
+    cout << "El DutyManager está gestionando";
 }
